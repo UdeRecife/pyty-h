@@ -1,5 +1,5 @@
-pyty
-====
+pyty-h
+======
 A Simple Typewriter Sound Emulator for Linux
 --------------------------------------------
 
