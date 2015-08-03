@@ -73,12 +73,12 @@ def play_sound(event):
         sound = k_space
     elif event.Key == 'BackSpace' or event.Key == 'Delete':
         sound = k_backspace
-    elif event.Key == 'Shift_L' or event.Key == 'Shift_R':
+    elif event.Key == 'Shift_L' or event.Key == 'Shift_R' or event.Key == 'Caps_Lock':
         sound = k_sh
     elif event.Key == 'Alt_L' or event.Key == '[65027]'or event.Key == 'Control_R' or event.Key == 'Control_L' or event.Key == 'Super_L' or event.Key == 'Menu':
-        sound = k_lbk
-    elif event.Key == 'Pause' or event.Key == 'Print'or event.Key == 'Home' or event.Key == 'End' or event.Key == 'Insert' or event.Key == 'Page_Up' or event.Key == 'Next' or event.Key == 'Multi_key':
         sound = k_sw
+    elif event.Key == 'Pause' or event.Key == 'Print' or event.Key == 'Home' or event.Key == 'End' or event.Key == 'Insert' or event.Key == 'Page_Up' or event.Key == 'Next' or event.Key == 'Multi_key' or event.Key == 'Tab':
+        sound = k_lbk
 #    elif event.Key == 'Control_R' or event.Key == 'Control_L':
 #        sound = k_sw
     elif event.Key == 'Escape':
